@@ -3,7 +3,8 @@
 
 import SwiftUI
 
+@available(macOS 10.15, *)
 @available(iOS 13.0, *)
 extension Color {
-    public static let safePrimary = Color.red
+    public static let safePrimary = Color.green
 }
